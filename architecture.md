@@ -1,5 +1,6 @@
 # Git Architecture Overview
 
+
 ### Follow up topics
 - git rebase, how it works 
 - git distribution 
@@ -26,6 +27,7 @@ A Version Control System usually has three core functionalities, all of which Li
 Git is essentially a content-addressable filesystem made up of objects that form a hierarchy which mirrors the content’s filesystem tree.
 
 Each commit has the parent link 
+
 
 ## Content storage 
 
@@ -176,7 +178,6 @@ ref : https://indepth.dev/posts/1168/becoming-a-git-pro-part-1-internal-git-arch
 ## Distribution
 
 
-
 ## Merge strategy 
 
 ### Fast-forward merge 
@@ -193,9 +194,9 @@ if Feature branch need merge to master , just point master head to feature branc
 
 ### Three way merge
 
-Master : A -- B -- C
+Master : A -- B -- C 
 
-Feature : A -- B -- D -- E 
+Feature : A -- B -- D -- E
 
 Merged Master : A -- B -- C -- D -- E -- F 
 
